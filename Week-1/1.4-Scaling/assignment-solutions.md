@@ -1,3 +1,6 @@
+# What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+
+
 Scaling refers to the process of increasing the capacity of a web application to handle more traffic and workload. As a website or web application grows, it may experience increasing levels of traffic, which can put a strain on the resources of the server. Scaling ensures that the website or application can handle the increased traffic and workload without compromising its performance or reliability.
 
 Scaling can be achieved through two methods: ***vertical scaling , horizontal scaling.***
