@@ -13,43 +13,45 @@
         }
 
         .form-group {
-   display: flex;
-   flex-direction: row;
-   align-items: end;
- }
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+        }
 
- .form-group label {
-   flex: none;
-   display: block;
-   width: 125px;
-   font-size: 1em;
- }
- .form-group  .input-control {
-   flex: none;
-   display: block;
-   margin-bottom: 10px;
-   margin-right: 8px;
-   padding: 4px;
-   margin-top: 10px;
- }
+        .form-group label {
+            flex: none;
+            display: block;
+            width: 125px;
+            font-size: 1em;
+        }
+
+        .form-group .input-control {
+            flex: none;
+            display: block;
+            margin-bottom: 10px;
+            margin-right: 8px;
+            padding: 4px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 
 <body>
     <h1>Join a social Network</h1>
     <form action="" method="post" enctype=“multipart/form-data”>
-        
 
-            <div class="form-group"><label for="fullName">Full Name:</label><input class="input-control" type="text" name="fullName"
-                    id="fullName" required/>
-            </div>
-            <div class="form-group"><label for="emailAddress">Email Address:</label><input class="input-control" type="email"
-                    name="emailAddress" id="emailAddress" required></div>
-            <div class="form-group"><label for="aboutArea">About you:</label><textarea name="aboutArea" id="aboutArea"
-                    cols="50" rows="3"></textarea></div>
-            <div class="form-group"><label for="photo">Photo:</label><input type="file" class="input-control" id="photo" name="filename"></div>
-            <div class="form-group"><input  class="input-control"type="submit"></div>
-        
+
+        <div class="form-group"><label for="fullName">Full Name:</label><input class="input-control" type="text"
+                name="fullName" id="fullName" required />
+        </div>
+        <div class="form-group"><label for="emailAddress">Email Address:</label><input class="input-control"
+                type="email" name="emailAddress" id="emailAddress" required></div>
+        <div class="form-group"><label for="aboutArea">About you:</label><textarea name="aboutArea" id="aboutArea"
+                cols="50" rows="3"></textarea></div>
+        <div class="form-group"><label for="photo">Photo:</label><input type="file" class="input-control" id="photo"
+                name="filename"></div>
+        <div class="form-group"><input class="input-control" type="submit"></div>
+
 
     </form>
 </body>
