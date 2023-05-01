@@ -7,7 +7,7 @@
 /* Your solution goes here */
 
 table{
-   border: 2px solid var(--row-bg-color);
+   border: 2px solid var(--table-color);
 }
 
 caption{
