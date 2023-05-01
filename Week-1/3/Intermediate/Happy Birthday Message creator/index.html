@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Message Creator</title>
+    <style>
+        .form-group {
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+        }
+
+        .form-group label {
+            flex: none;
+            display: block;
+            width: 125px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Happy Birthday Message Creator</h1>
+    <form action="" method="post" enctype=“multipart/form-data”>
+
+
+        <div class="form-group"><label for="message">Message?</label><input class="input-control" type="text"
+                name="message" id="message" required />
+        </div>
+        <div class="form-group"><label for="emailAddress">Email Address:</label><input class="input-control"
+                type="email" name="emailAddress" id="emailAddress" required></div>
+        <div class="form-group"><label for="date">Date to send?</label><input type="date" name="date" id="date"></input>
+        </div>
+        <div class="form-group"><label for="color">Message Color?</label><input type="color" name="color"
+                id="color"></input></div>
+        <div class="form-group"><label for="blinks">Number of blinks?</label><input type="number" min="0" max="50"
+                value="20" name="blinks" id="blinks"></input></div>
+        <div class="form-group"><label for="music-range">Music Volume?</label><input type="range" name="music-range"
+                id="music-range"></input></div>
+        <div class="form-group"><input class="input-control" type="submit" value="Send Birthday Message"></div>
+
+
+    </form>
+</body>
+
+</html>
