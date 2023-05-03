@@ -1,0 +1,21 @@
+/* Add your styles here */
+
+body{
+    padding-left:130px;
+    padding-right:130px;
+}
+img:nth-child(1){
+width: 300px;
+}
+
+h1{
+    background-color: red;
+    color:white;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p:first-of-type{
+color: grey;
+}

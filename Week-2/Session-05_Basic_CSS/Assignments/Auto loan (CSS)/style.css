@@ -1,0 +1,78 @@
+/* Your code goes here */
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13px;
+    margin: 5px;
+}
+.item:nth-child(2){
+    width:calc(50%);
+}
+.item:nth-child(3){
+    width:calc(50%);
+}
+
+
+
+.finalValue{
+    color:blue;
+}
+h1 {
+    justify-self: stretch;
+    flex: 0 0 100%;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+.offer {
+    display: inline-block;
+    max-width: 400px;
+    margin: 4px;
+    text-align: center;
+    border: #cccccc solid 1px;
+}
+
+.offerTitle {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #00b3b3;
+    margin: 0;
+    padding: 15px;
+}
+
+.offerContents {
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.offerContents>table {
+    width: 100%;
+    border-spacing: 0px;
+    background-color: #ffffff;
+}
+
+th {
+    font-weight: 12px;
+    color: #777777;
+    margin: 0px;
+    padding: 10px;
+}
+
+td {
+    font-weight: lighter;
+    color: #444444;
+    margin: 0;
+    padding: 20px 10px;
+}
+
+table > tbody > tr:nth-child(4){
+    border-bottom: 2px solid rgb(15, 3, 3);
+}
+
+table > tbody > tr:nth-child(1)> td:nth-of-type(1){
+    border-top:1px solid #d6d5d5;
+}
