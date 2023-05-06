@@ -50,23 +50,23 @@ const scientificCalc = new ScientificCalculator();
 /* Using the "call" method, invoke the "add" method of the Calculator class with 
 arguments 10 and 5.*/
 const sum = Calculator.prototype.add.call(scientificCalc, 10, 5);
-console.log(sum); // Output: 15
+console.log(`10+5 :${sum}`); // Output: 15
 
 /* Using the "apply" method, invoke the "subtract" method of the Calculator class with 
 arguments 10 and 5.*/
 const diff = Calculator.prototype.subtract.apply(scientificCalc, [10, 5]);
-console.log(diff); // Output: 5
+console.log(`10-5 :${diff}`); // Output:5
 
 /* Using the "bind" method, create a new method named "multiplyByTwo" that multiplies 
 a number by 2 and returns the result. Bind the "multiplyByTwo" method to the instance 
 of the ScientificCalculator class.*/
 const multiplyByTwo = Calculator.prototype.multiply.bind(scientificCalc, 2);
 scientificCalc.multiplyByTwo = multiplyByTwo;
-console.log(scientificCalc.multiplyByTwo(5)); // Output: 10
+console.log(`5x2 :${scientificCalc.multiplyByTwo(5)}`); // Output: 10
 
 /*Using the "bind" method, create a new method named "powerOfThree" that raises a
  number to the power of 3 and returns the result. Bind the "powerOfThree" method to 
  the instance of the ScientificCalculator class.*/
 const powerOfThree = ScientificCalculator.prototype.cube.bind(scientificCalc);
 scientificCalc.powerOfThree = powerOfThree;
-console.log(scientificCalc.powerOfThree(2)); // Output: 8
+console.log(`2^3:${scientificCalc.powerOfThree(2)}`); // Output: 8
